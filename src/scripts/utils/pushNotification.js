@@ -10,7 +10,7 @@ class PushNotificationService {
     if ("serviceWorker" in navigator && "PushManager" in window) {
       try {
         this.swRegistration = await navigator.serviceWorker.register(
-          "./public/sw.js"
+          "../src/public/sw.js"
         );
         return true;
       } catch (error) {
