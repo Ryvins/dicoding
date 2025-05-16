@@ -1,0 +1,2 @@
+APP_URL=https://thekomunis.github.io/DICODING/
+MAP_SERVICE_API_KEY=<api_key>
